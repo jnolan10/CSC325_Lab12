@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="337.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modelview.MenuView">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <VBox alignment="CENTER" layoutX="98.0" layoutY="75.0" prefHeight="162.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToView1" text="View 1" />
+            <Button mnemonicParsing="false" onAction="#switchToView2" text="View 2" />
+         </children>
+      </VBox>
+      <Label layoutX="220.0" layoutY="57.0" text="Menu">
+         <font>
+            <Font name="Haettenschweiler" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

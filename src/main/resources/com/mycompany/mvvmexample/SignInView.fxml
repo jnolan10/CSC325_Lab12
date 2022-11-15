@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="337.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modelview.SignInView">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <VBox alignment="CENTER" layoutX="98.0" layoutY="75.0" prefHeight="162.0" prefWidth="300.0">
+         <children>
+            <Label text="User" />
+            <TextField fx:id="userTxt" />
+            <Label text="Pass" />
+            <TextField fx:id="passTxt" />
+         </children>
+      </VBox>
+      <Label layoutX="138.0" layoutY="40.0" text="Login to your account">
+         <font>
+            <Font name="Haettenschweiler" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="98.0" layoutY="249.0" mnemonicParsing="false" onAction="#signInUser" text="Sign In" />
+      <Button layoutX="338.0" layoutY="249.0" mnemonicParsing="false" onAction="#switchToReg" text="Register" />
+      <Label layoutX="226.0" layoutY="228.0" text="Need an account? Register here:" />
+   </children>
+</AnchorPane>
